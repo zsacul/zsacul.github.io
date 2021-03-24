@@ -59,5 +59,9 @@ let isMacOS = navigator.platform.startsWith('Mac');
 
 if (isMacOS)
 {
-
+  document.getElementById("winonly").style.display = 'none';
+}
+else
+{
+  document.getElementById("maconly").style.display = 'none';
 }
