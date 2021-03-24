@@ -55,4 +55,9 @@ document.getElementById("promo_text").innerHTML = promoText;
 
 start_promo_timer(promoText,"Dec 5, 2020 8:59:59");
 
+let isMacOS = navigator.platform.startsWith('Mac');
 
+if (isMacOS)
+{
+
+}
