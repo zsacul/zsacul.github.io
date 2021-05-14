@@ -830,7 +830,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		text-overflow: ellipsis;
 
 		&:hover {
-			background-color: _palette(border-bg);
+			border-bottom-color: #ffff00;
 		}
 
 		&:active {
@@ -855,6 +855,24 @@ $baseurl: '{{ site.baseurl }}/images';
 
 		&.big {
 			font-size: 1.35em;
+		}
+
+		&.buy {
+			height: 5.125em;
+			background-color: #ff1a00;
+			color: white !important;
+			text-transform: uppercase;
+			font-family: 'Montserrat', sans-serif;
+			font-size: 14px;
+			letter-spacing: 0.7px;
+			-webkit-font-smoothing: antialiased;
+			line-height: 70px;		
+			text-align: center;
+			border-radius: 5px;
+		}		
+		
+		&.buy:hover {
+			background-color: rgba(196,50,34,1) !important;
 		}
 
 		&.special {
