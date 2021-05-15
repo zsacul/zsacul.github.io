@@ -11,8 +11,8 @@ description: |
   ready for SketchUp 2021 <br />
   released
 
-owner: Brighter3D Software Development Ltd.
-first_published: 2013-2019 # if migrating another site, the year of your first publish
+owner: Norferin Software
+first_published: 2013-2020 # if migrating another site, the year of your first publish
 email: support@brighter3d.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.brighter3d.com/" # the base hostname & protocol for your site
