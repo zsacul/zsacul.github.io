@@ -868,7 +868,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			-webkit-font-smoothing: antialiased;
 			line-height: 70px;		
 			text-align: center;
-			border-radius: 5px;
+			border-radius: 7px;
 		}		
 		
 		&.buy:hover {
@@ -1719,7 +1719,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 /* CTA */
 
-	#cta {
+	#ctas {
 		.inner {
 			@include vendor('display', 'flex');
 			max-width: 45em;
